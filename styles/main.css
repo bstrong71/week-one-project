@@ -13,19 +13,22 @@ Button Text (Hover): #FFFFFF
 Input Border Bottom: #968772
 Input Border Bottom (Focus): #967343*/
 
-*{
+/**{
   border: 1px solid red;
-}
+}*/
 
 body, * {
   margin: 0;
   padding: 0;
+  background: #F2F1E8;
+
 }
 
 .nav-logo {
   height: 40px;
   margin-right: 500px;
   padding: 10px;
+  background: #FFFFFF;
 }
 
 .nav-bar {
@@ -35,10 +38,111 @@ body, * {
   font-family: Roboto;
   font-size: 18px;
   text-transform: uppercase;
+  background: #FFFFFF;
 }
 
 .nav-bar a {
   padding: 10px;
   margin-top: 10px;
   color: #2B2F26;
+  background: #FFFFFF;
+}
+
+.nav-bar a:hover {
+  color: #CD5D67;
+}
+
+.nav-bar a:active {
+  color: #968772;
+}
+
+#title {
+  text-align: center;
+  padding: 5px;
+  margin-top: 20px;
+  font-family: Merriweather;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+#subtitle {
+  text-align: center;
+  padding: 5px;
+  margin-top: 3px;
+  margin-bottom: 15px;
+  font-family: Merriweather;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.row1, .row2 {
+  display: flex;
+}
+
+#endless {
+  background-image: url("../images/product-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 80%;
+  height: 300px;
+}
+
+#sets {
+  background-image: url("../images/product-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+}
+
+#textures {
+  background-image: url("../images/product-3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+}
+
+#tea_time {
+  background-image: url("../images/product-4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+}
+
+#jars {
+  background-image: url("../images/product-5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+}
+
+#wasabi {
+  background-image: url("../images/product-6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+}
+
+#sippin {
+  background-image: url("../images/product-7.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+}
+
+footer p{
+  background-color: #2B2F26;
+  padding: 40px;
+  font-family: Merriweather;
+  color: #F2F1E8;
 }
