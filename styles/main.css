@@ -202,9 +202,11 @@ h3 {
   height: 30%;
 }
 
-footer p{
+footer p {
   background-color: #2B2F26;
-  padding: 40px;
+  padding-top: 42px;
+  padding-bottom: 42px;
+  padding-left: 25px;
   font-family: Merriweather;
   color: #F2F1E8;
 }
