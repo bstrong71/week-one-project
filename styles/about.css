@@ -12,26 +12,34 @@ Button Text: #F2F1E8
 Button Text (Hover): #FFFFFF
 Input Border Bottom: #968772
 Input Border Bottom (Focus): #967343*/
+/** {
+  border: 1px solid red;
+}*/
 
 body {
-  margin: 0;
-  padding: 0;
-  background: #F2F1E8;
+  width: 1280px;
+  margin: 0 auto;
+  background-color: black;
+}
+
+.container {
+  background-color: #F2F1E8;
+  width: 1280px;
 }
 
 .nav-logo {
   height: 40px;
-  margin-right: 510px;
+  margin-right: 450px;
   padding: 10px;
   background: #FFFFFF;
 }
 
 .nav-bar {
   position: fixed;
-  width: 100%;
+  width: 1280px;
   display: flex;
   justify-content: flex-start;
-  padding: 7px;
+  padding-top: 7px;
   font-family: Roboto;
   font-size: 18px;
   text-transform: uppercase;
@@ -53,11 +61,43 @@ body {
   color: #968772;
 }
 
+.title {
+  font-family: Merriweather;
+  text-align: center;
+  padding-top: 80px;
+  font-size: 33px;
+  font-weight: 400;
+}
 
+.top_section {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-family: Merriweather;
+  font-size: 20px;
+}
 
+.top_section img {
+  width: 18%;
+  height: 115px;
+  margin-right: 31px;
+  margin-bottom: 15px;
+  float: left;
+}
+
+.top_section p {
+  line-height: 1.8;
+}
+
+.mid_image img {
+  width: 100%;
+}
 
 footer p {
   background-color: #2B2F26;
+  margin: 0;
   padding-top: 42px;
   padding-bottom: 42px;
   padding-left: 25px;
