@@ -58,6 +58,10 @@ body {
   color: #968772;
 }
 
+.nav-bar a:visited {
+  color: #968772;
+}
+
 #title {
   text-align: center;
   padding-top: 100px;
