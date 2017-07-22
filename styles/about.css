@@ -112,15 +112,59 @@ body {
 .top_section blockquote, p {
   margin-top: 0;
   margin-bottom: 0;
-  font-style: italic;
 }
 
 .top_section h3 {
   font-weight: normal;
 }
 
-.mid_image img {
-  width: 100%;
+.mid_image {
+  background-image: url(../images/background-3.jpg);
+  width: 1280px;
+  height: 320px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#Facilities {
+  margin-left: 200px;
+  font-family: Merriweather;
+  font-size: 24px;
+}
+
+.second_section {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 24px;
+  font-family: Merriweather;
+  font-size: 20px;
+}
+
+.second_section h3 {
+  font-weight: normal;
+}
+
+.second_section p {
+  line-height: 1.8;
+}
+
+figure {
+  float: right;
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+figcaption {
+  margin-top: 10px;
+}
+
+#Monthly_Plans {
+  margin-left: 200px;
+  font-family: Merriweather;
+  font-size: 24px;
 }
 
 footer p {
