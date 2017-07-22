@@ -17,7 +17,7 @@ Input Border Bottom (Focus): #967343*/
   border: 1px solid red;
 }*/
 
-body, * {
+body {
   margin: 0;
   padding: 0;
   background: #F2F1E8;
@@ -26,7 +26,7 @@ body, * {
 
 .nav-logo {
   height: 40px;
-  margin-right: 500px;
+  margin-right: 510px;
   padding: 10px;
   background: #FFFFFF;
 }
@@ -60,21 +60,20 @@ body, * {
 
 #title {
   text-align: center;
-  padding: 5px;
-  padding-top: 80px;
+  padding-top: 100px;
   margin-top: 20px;
   font-family: Merriweather;
-  font-size: 50px;
+  font-size: 80px;
   font-weight: 400;
 }
 
 #subtitle {
   text-align: center;
-  padding: 5px;
-  margin-top: 3px;
+  padding: 0;
+  margin-top: 0;
   margin-bottom: 15px;
   font-family: Merriweather;
-  font-size: 30px;
+  font-size: 50px;
   font-weight: 300;
 }
 
@@ -87,69 +86,120 @@ body, * {
   display: flex;
 }
 
+.row1 {
+  height: 500px;
+}
+
 .row2 {
   flex-wrap: nowrap;
   justify-content: space-between;
 }
 
-.image {
-  margin: 10px;
+h3 {
+  background-color: #2B2F26;
+  color: #F2F1E8;
+  font-weight: 200;
+  font-size: 20px;
+  padding: 8px;
+  margin-top: 220px;
+}
+
+#endless h3 {
+  width: 180px;
+  text-align: center;
+  margin-top: 390px;
+}
+#sets h3 {
+  width: 50px;
+  text-align: center;
+  margin-top: 390px;
+}
+#textures h3 {
+  width: 80px;
+  text-align: center;
+  margin-top: 390px;
+}
+#tea_time h3 {
+  width: 95px;
+  text-align: center;
+  margin-top: 200px;
+}
+#jars h3 {
+  width: 170px;
+  text-align: center;
+  margin-top: 200px;
+}
+#wasabi h3 {
+  width: 150px;
+  text-align: center;
+  margin-top: 200px;
+}
+#sippin h3 {
+  width: 175px;
+  text-align: center;
+  margin-top: 200px;
+}
+.row1, .image {
+  margin: 20px 10px 5px 10px;
+}
+.row2, .image {
+  margin: 0 10px 5px 10px;
 }
 
 #endless {
   background-image: url("../images/product-1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  width: 80%;
-  height: 300px;
+  width: 70%;
+  height: 90%;
 }
 
 #sets {
   background-image: url("../images/product-2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  width: 300px;
-  height: 300px;
+  width: 15%;
+  height: 90%;
 }
 
 #textures {
   background-image: url("../images/product-3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  width: 300px;
-  height: 300px;
+  width: 15%;
+  height: 90%;
 }
 
 #tea_time {
   background-image: url("../images/product-4.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  width: 300px;
-  height: 300px;
+  width: 15%;
+  height: 30%;
 }
 
 #jars {
   background-image: url("../images/product-5.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  width: 300px;
-  height: 300px;
+  width: 15%;
+  height: 30%;
 }
 
 #wasabi {
   background-image: url("../images/product-6.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  width: 300px;
-  height: 300px;
+  width: 50%;
+  height: 30%;
 }
 
 #sippin {
   background-image: url("../images/product-7.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  width: 300px;
-  height: 300px;
+  width: 15%;
+  height: 30%;
 }
 
 footer p{
