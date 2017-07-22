@@ -66,15 +66,17 @@ body {
   text-align: center;
   padding-top: 80px;
   font-size: 33px;
-  font-weight: 400;
+  font-weight: normal;
 }
 
 .top_section {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   margin-top: 30px;
   margin-left: 200px;
   margin-right: 200px;
+  margin-bottom: 24px;
   font-family: Merriweather;
   font-size: 20px;
 }
@@ -89,6 +91,32 @@ body {
 
 .top_section p {
   line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.top_section a {
+  color: #968772;
+}
+
+.top_section a:hover {
+  color: #967343;
+}
+
+.top_section blockquote {
+  border-left: 2px solid #968772;
+  padding-left: 35px;
+  padding-right: 30px;
+  margin: 0;
+}
+
+.top_section blockquote, p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-style: italic;
+}
+
+.top_section h3 {
+  font-weight: normal;
 }
 
 .mid_image img {
