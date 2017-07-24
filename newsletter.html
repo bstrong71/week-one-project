@@ -19,11 +19,27 @@
               <form action="" method="post">
                 <h3>Sign Up for Our Weekly Newsletter</h3>
                 <p>Stay up to date with events, activities, news and specials.</p>
-                <input type="text" name="Name" placeholder="Name">
-                <input type="email" name="Email" placeholder="Email">
-                <button type="button" name="Submit">Submit</button>
+                <input id="nameInput" type="text" name="Name" placeholder="Name">
+                <input id="emailInput" type="email" name="Email" placeholder="Email">
+                <button id="signupButton" type="button" name="Submit">Submit</button>
               </form>
             </section>
         </div>
+        <script type="text/javascript">
+  var nameInput = document.getElementById('nameInput');
+  var emailInput = document.getElementById('emailInput');
+  var signupButton = document.getElementById('signupButton');
+  signupButton.addEventListener('click', function(e) {
+    var nameVal = nameInput.value;
+    var emailVal = emailInput.value;
+    if (nameVal && emailVal) {
+      alert('Thanks for signing up, ' + nameVal + '. Newsletters will be sent to ' + emailVal);
+      nameInput.value = "";
+      emailInput.value = "";
+    } else {
+      alert('We would love for you to sign up, please provide both your name and email address.');
+    }
+  });
+</script>
     </body>
 </html>
