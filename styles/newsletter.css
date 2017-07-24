@@ -100,7 +100,8 @@ input {
   margin-top: 15px;
   font-family: Roboto;
   font-size: 20px;
-  border-top: #968772;
+  border: none;
+  border-bottom: 2px solid #968772;
 }
 
 button {
