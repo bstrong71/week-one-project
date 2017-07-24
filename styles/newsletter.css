@@ -94,6 +94,10 @@ body {
   margin-top: 0;
 }
 
+form {
+  text-align: center;
+}
+
 input {
   width: 85%;
   padding: 10px;
@@ -107,7 +111,7 @@ input {
 button {
   width: 24%;
   padding: 15px;
-  margin-top: 20px;
+  margin: 15px;
   background-color: #968772;
   color: #F2F1E8;
   font-family: Roboto;
